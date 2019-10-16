@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HelloWorld.tn</groupId>
+  <artifactId>HelloWorld</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Archetype - HelloWorld</name>
+  <url>http://maven.apache.org</url>
+  
+  <repositories>
+  <repository>
+  <id>nexus-snapshot09</id>
+  <name>nexus-snapshot09</name>
+  <url>http://localhost:8081/repository/nexus-snapshot09/</url>
+  <snapshots>
+  <enabled>true</enabled>
+  </snapshots>
+  </repository>
+  </repositories>
+  
+  <distributionManagement>
+  <snapshotRepository>
+  <id>nexus-snapshot09</id>
+  <name>nexus-snapshot09</name>
+  <url>http://localhost:8081/repository/nexus-snapshot09/</url>
+  </snapshotRepository>
+  </distributionManagement>
+  
+</project>

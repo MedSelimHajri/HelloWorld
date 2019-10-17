@@ -9,9 +9,9 @@
   
   <repositories>
   <repository>
-  <id>nexus-snapshot09</id>
-  <name>nexus-snapshot09</name>
-  <url>http://localhost:8081/repository/nexus-snapshot09/</url>
+  <id>nexus-release09</id>
+  <name>nexus-release09</name>
+  <url>http://localhost:8081/repository/nexus-release09/</url>
   <snapshots>
   <enabled>true</enabled>
   </snapshots>
